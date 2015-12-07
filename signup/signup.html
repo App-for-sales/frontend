@@ -1,0 +1,98 @@
+<!docype html>
+<html>
+  <nead>
+     <title>Sales-SignUp</title>
+     <meta content="noindex, nofollow" name="robots">
+     <link rel="stylesheet" type="text/css" href="main.css">
+     <link rel="stylesheet" type="text/css" href="main.css">
+     <!-- Latest compiled and minified CSS -->
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	 <!-- Optional theme -->
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+</head>
+
+<body>
+	<header>
+		<img src="../images/logo.jpg" class="img-rounded" alt="logosales" > 
+		<nav>
+	<h1>Please Sign Up</h1>
+	<ul>
+		<li><button type="button" class="btn btn-sm btn-primary" disabled>Sign Up</button></li>
+					<li><a href="../login/login.html" class="btn btn-primary btn-sm active" role="button">login</a></li>
+        			<li><a href="../index/index.html" class="btn btn-primary btn-sm active" role="button">Home</a></li>
+    </ul>
+	</nav>
+</header>
+
+
+
+<div id="form">
+<p id="head"></p>
+<!-- This segment displays the validation rule -->
+<h2>Signup for Awesomeness</h2>
+<!-- Form starts from here -->
+<form onsubmit='return formValidation()'>
+<label>Full Name:</label>
+<input id='firstname' type='text'>
+<p id="p1"></p>
+<!-- This segment displays the validation rule for name -->
+<label>Username(6-8 characters):</label>
+<input id='username' type='text'>
+<p id="p2"></p>
+<!-- This segment displays the validation rule for user name -->
+<label>Email:</label>
+<input id='email' type='text'>
+<p id="p3"></p>
+<!-- This segment displays the validation rule for email -->
+<label>State:</label>
+<select id='state'>
+<option>
+Please Choose
+</option>
+<option>
+America
+</option>
+<option>
+Australia
+</option>
+<option>
+Sweden
+</option>
+<option>
+Africa
+</option>
+</select>
+<p id="p4"></p>
+<!-- This segment displays the validation rule for selection -->
+<label>Address:</label>
+<input id='addr' type='text'>
+<p id="p5"></p>
+<!-- This segment displays the validation rule for address -->
+<label>Zip Code:</label>
+<input id='zip' type='text'>
+<p id="p6"></p>
+<!-- This segment displays the validation rule for zip -->
+<input id="submit" type='submit' value='Check Form'>
+</form>
+</div>
+</body>
+</html>
+
+
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+     <!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+	</script>
+
+</body>
+
+
+
+
+
+
+
+
+</html>

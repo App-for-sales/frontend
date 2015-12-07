@@ -1,0 +1,131 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+*{margin:0;padding:0;}
+
+body {
+	background:#009dff;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding: 10px 10px 10px 10px;
+
+	
+}
+
+h1 {
+	color:#909;
+	font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+header {
+	background:#004cff;
+	color:white;
+	margin-top: -5px;
+	margin-right: 2px;
+	margin-bottom: 10px;
+	margin-left: 2px;
+	padding: 50px 50px 20px 100px;
+}
+
+nav ul{
+	margin: 5px;
+}
+
+nav ul li{
+   display: inline-block;
+   list-style-type: none;
+   padding: 1px 0px 0px 0px;
+
+}
+
+.button{
+  width:100px;
+  background:#3399cc;
+  display:block;
+  margin:0 auto;
+  margin-top:1%;
+  padding:10px;
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+.button:hover{
+  background:#2288bb;
+}
+
+#login{
+  width:400px;
+  margin:0 auto;
+  margin-top:8px;
+  margin-bottom:2%;
+  transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+}
+
+form{
+  background:#f0f0f0;
+  padding:6% 4%;
+}
+
+input[type="email"],input[type="password"]{
+  width:92%;
+  background:#fff;
+  margin-bottom:4%;
+  border:1px solid #ccc;
+  padding:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:95%;
+  color:#555;
+}
+
+input[type="submit"]{
+  width:100%;
+  background:#3399cc;
+  border:0;
+  padding:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:100%;
+  color:#fff;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+input[type="submit"]:hover{
+  background:#2288bb;
+}
+
+
+.img-rounded {
+  float: right;
+  margin-top: -5px;
+  margin-right: 2px;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  padding: 0px 0px 0px 0px;
+
+}
+
+h2{
+background-color: #004cff;
+text-align:left;
+border-radius: 10px 10px 0 0;
+padding: 10px 10px 10px 100px;
+color:#999;
+font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
+font-size: 20px;
+font-style: normal;
+font-variant: normal;
+
+line-height: 2px;
+}

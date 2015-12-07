@@ -1,0 +1,132 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+body {
+	background:#009dff;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding: 10px 10px 10px 10px;
+
+	
+}
+
+h1 {
+	color:#909;
+	font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+header {
+	background:#004cff;
+	border-radius: 10px 10px 0 0;
+	color: white;
+	margin-top: -5px;
+	margin-right: 2px;
+	margin-bottom: 10px;
+	margin-left: 2px;
+	padding: 50px 50px 20px 100px;
+}
+
+nav ul{
+	margin: 5px;
+}
+
+nav ul li{
+   display: inline-block;
+   list-style-type: none;
+   padding: 1px 0px 0px 0px;
+
+}
+
+.img-rounded {
+  float: right;
+  margin-top: -5px;
+  margin-right: 2px;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  padding: 0px 0px 0px 0px;
+
+}
+
+
+#main{
+width:960px;
+margin:50px auto;
+font-family:raleway;
+}
+
+span{
+color:red;
+}
+
+h2{
+background-color: #004cff;
+text-align:left;
+border-radius: 10px 10px 0 0;
+padding: 10px 10px 10px 100px;
+color:#999;
+font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
+font-size: 20px;
+font-style: normal;
+font-variant: normal;
+
+line-height: 2px;
+}
+
+hr{
+border:0;
+border-bottom:1px solid #ccc;
+margin: 10px -40px;
+margin-bottom: 30px;
+}
+
+#form_layout{
+width:0px;
+float: right;
+border-radius: 0px;
+font-family:raleway;
+border: 0px solid #ccc;
+padding: 0px 0px 0px;
+margin-top: -1px;
+}
+
+input[type=text],input[type=password],#state{
+width:99.5%;
+padding: 10px;
+margin-top: 8px;
+border: 1px solid #ccc;
+padding-left: 5px;
+font-size: 16px;
+font-family:raleway;
+}
+
+input[type=submit]{
+width: 100%;
+background-color:#FFBC00;
+color: white;
+border: 2px solid #FFCB00;
+padding: 10px;
+font-size:20px;
+cursor:pointer;
+border-radius: 5px;
+margin-bottom: 15px;
+}
+
+a{
+text-decoration:none;
+color: white;
+}
+
+i{
+color: white;
+}
+
+p{
+font-size:12px;
+color:white;
+}
+
